@@ -3,12 +3,13 @@
     <head>
         <meta charset="utf-8">
         <title>Kanban board</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <div id="board" class="board">
             <h1>Kanban board</h1>
-            <button class="create-column">Add a column</button>
+            <button class="create-column"><i class="fas fa-plus"></i></button>
             <div class="column-container"></div>
         </div>
 
@@ -16,15 +17,15 @@
             <div class="column">
                 <h2 class="column-title">{{ name }}</h2>
                 <ul id={{ id }} class="column-card-list"></ul>
-                <button class="btn-delete">X</button>
-                <button class="add-card">Add a card</button>
+                <button class="btn-delete"><i class="fas fa-times"></i></button>
+                <button class="add-card"><i class="fas fa-plus"></i></button>
             </div>
         </script>
 
         <script id='card-template' type='x-tmpl-mustache'>
             <div class='card'>
                 <p class='card-description'>{{description}}</p>
-                <button class='btn-delete'>x</button>
+                <button class='btn-delete'><i class="fas fa-times"></i></button>
             </div>
         </script>
 
