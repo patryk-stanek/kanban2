@@ -19,6 +19,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .column {
@@ -50,6 +51,10 @@ body {
 .card-description {
     padding: 5px;
     margin: 5px;
+}
+
+i {
+    pointer-events: none;
 }
 
 button {

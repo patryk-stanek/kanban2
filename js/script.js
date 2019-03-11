@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
             str += chars[Math.floor(Math.random() * chars.length)];
         }
         return str;
-    };
+    }
 
     function generateTemplate(name, data, basicElement) {
         var template = document.getElementById(name).innerHTML;
@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
             self.removeCard();
           }
         });
-    };
+    }
 
     Card.prototype = {
         removeCard: function() {
@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', function() {
           initSortable(column.id);
         },
         element: document.querySelector('#board .column-container')
-    };
+    }
 
     function initSortable(id) {
         var el = document.getElementById(id);
@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function() {
           group: 'kanban',
           sort: true
         });
-    };
+    }
 
     document.querySelector('#board .create-column').addEventListener('click', function() {
         var name = prompt('Enter a column name');
