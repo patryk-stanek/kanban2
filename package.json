@@ -1,7 +1,7 @@
 {
-  "name": "kanban",
+  "name": "kanban2",
   "version": "1.0.0",
-  "description": "https://patryk-stanek.github.io/kanban/",
+  "description": "https://patryk-stanek.github.io/kanban2/",
   "main": "index.js",
   "dependencies": {
     "npm": "^6.5.0"
@@ -36,13 +36,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/patryk-stanek/kanban.git"
+    "url": "git+https://github.com/patryk-stanek/kanban2.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/patryk-stanek/kanban/issues"
+    "url": "https://github.com/patryk-stanek/kanban2/issues"
   },
-  "homepage": "https://github.com/patryk-stanek/kanban#readme"
+  "homepage": "https://github.com/patryk-stanek/kanban2#readme"
 }
